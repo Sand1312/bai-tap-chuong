@@ -7,11 +7,8 @@ int main () {
 	if(a==0||b==0) cout << a+b;
 	else {
 		while(a!=b) {
-			if(a>b) {
-				a-=b;
-			} else {
-				b-=a;
-		}
+		if(a>b) a-=b;
+		 else 	b-=a;
 	}
 	cout << a;
 	}
